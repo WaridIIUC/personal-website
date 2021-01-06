@@ -106,19 +106,17 @@ section{
 .one-third-width p{
     padding: 0 40px 0 20px;
     line-height: 28px;
-    margin-bottom: 18px;    
+    margin-bottom: 18px;
 }
 
 .inquiry-area{
     height: 500px;
-    
 }
+
 .inquiry-area h1{
     font-size: 40px;  
     font-family: 'Bebas Neue', cursive;
     color: white;
-    padding-top: 10%;
-
 }
 
 .work-inquiry-div{
@@ -128,8 +126,23 @@ section{
     background-size: 100%;
     margin: auto;
     margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
 }
 
+.work-inquiry-div-h1{
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    display: inherit;
+}
+.work-inquiry-div-btn{
+    width: 25%;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+    display: flex;
+}
 .stay-connected-div h4{
     font-family: 'Bebas Neue', cursive;
     color: #696871 ;

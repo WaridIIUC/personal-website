@@ -232,3 +232,8 @@ footer p{
     width: auto;
     height: 100px;
 }
+
+#copyright-warning{
+    font-size: small;
+    text-align: center;
+}

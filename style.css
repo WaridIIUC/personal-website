@@ -1,7 +1,18 @@
-body{
-    /* margin: 40px; */
+
+.topnav {
+    overflow: hidden;
+    padding-right: 100px;
 }
 
+.topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    
+  }
 h1{
     font-size: 50px;  
     font-family: 'Bebas Neue', cursive;
